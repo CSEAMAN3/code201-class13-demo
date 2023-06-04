@@ -38,9 +38,7 @@ function enterLightmode() {
 function loadSettings() {
   let getSettings = localStorage.getItem("settings");
   if (getSettings) {
-    console.log(getSettings);
     settings = JSON.parse(getSettings);
-    console.log(settings);
   }
 }
 
